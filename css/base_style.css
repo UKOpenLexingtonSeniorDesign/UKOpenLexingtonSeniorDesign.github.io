@@ -1,18 +1,34 @@
+.top-bar .name h1 a {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 30px;
+}
+
 .top-bar {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 14px;
+	text-decoration: none;
 	color: #FFFFFF;
-	background: #FF4444;
+	background: #FF6666;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 14px;
 	color: #FFFFFF;
-	background: #FF4444;
+	background: #FF6666;
 	-webkit-transition: background-color 300ms ease-out;
 	-moz-transition: background-color 300ms ease-out;
 	transition: background-color 300ms ease-out; }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 14px;
 	color: #FFFFFF;
-	background: #FF2222;
+	background: #FF4444;
 	-webkit-transition: background-color 300ms ease-out;
 	-moz-transition: background-color 300ms ease-out;
 	transition: background-color 300ms ease-out; }
@@ -28,14 +44,21 @@ body{
 	background-attachment:fixed;
 }
 
-.box {
-	background-color: rgba(255,255,255,0.75);
-	box-shadow: 10px 10px 20px rgba(255,200,200,0.75);
-	color : black;
-	width : 50%;
-	min-width: 200;
-	min-height: 10;
+.box_1 {
+	width: 100%;
+	margin: 220px auto;
 	text-align: center;
-	margin: 10px auto;
-	border-radius: 10px;
+}
+
+.box_2 {
+	background: #FFFFFF;
+	width:100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.box_2 span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal; 
 }
