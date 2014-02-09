@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% if page.title %} {{ page.title }} | {% endif %} Senior Design</title>
+	<link rel="stylesheet" href="/css/base_style.css" />
+</head>
+<body>
+<div id="main">
+	<nav id="top_bar">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/">About</a></li>
+			<li><a href="/">Meetings</a></li>
+			<li><a href="/">Members</a></li>
+			<li><a href="/">Requirements</a></li>
+			<li><a href="/">Schedule</a></li>
+			<li><a href="/">Important Dates</a></li>
+			<li><a href="/">Activity</a></li>
+			<li><a href="/">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	{{ content }}
+
+</div>
+</body>
+</html>
