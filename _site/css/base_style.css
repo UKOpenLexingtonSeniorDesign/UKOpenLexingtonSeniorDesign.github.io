@@ -62,3 +62,41 @@ body{
 	vertical-align: middle;
 	line-height: normal; 
 }
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height:100%;
+}
+
+.center {
+    margin: 0 auto;
+    width: 200px;
+    height:100%;
+}
+
+.right {
+    float: right;
+    width: 200px;
+    height:100%;
+}
+.about_div {
+	height:100%;
+	background-color: rgba(255,255,255,.9);
+}
+.image {
+	margin:10px 10px;
+}
+.about_name {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(0,0,0);
+	text-align: center;
+}
