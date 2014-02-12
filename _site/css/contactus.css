@@ -1,0 +1,23 @@
+.background_box {
+	background-color: rgba(255,255,255,.9);
+	font-family: Helvetica;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0px auto;
+	width: 90%;
+	min-width: 200px;
+	border-radius: 15px;
+
+}
+.background_box h1 {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 32px;
+	margin: 10px 10px;
+}
+.background_box h2 {
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 10px 10px;
+}

@@ -87,8 +87,10 @@ body{
     height:100%;
 }
 .about_div {
-	height:100%;
+	margin: 10px auto;
+	width: 90%;
 	background-color: rgba(255,255,255,.9);
+	border-radius: 10px;
 }
 .about_image {
 	margin:20px 20px;
