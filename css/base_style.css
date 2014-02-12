@@ -10,7 +10,7 @@
 	font-size: 14px;
 	text-decoration: none;
 	color: #FFFFFF;
-	background: #FF6666;
+	background: #3838d9;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -18,7 +18,7 @@
 	font-weight: 700;
 	font-size: 14px;
 	color: #FFFFFF;
-	background: #FF6666;
+	background: #3838d9;
 	-webkit-transition: background-color 300ms ease-out;
 	-moz-transition: background-color 300ms ease-out;
 	transition: background-color 300ms ease-out; }
@@ -28,14 +28,14 @@
 	font-weight: 700;
 	font-size: 14px;
 	color: #FFFFFF;
-	background: #FF4444;
+	background: #272797;
 	-webkit-transition: background-color 300ms ease-out;
 	-moz-transition: background-color 300ms ease-out;
 	transition: background-color 300ms ease-out; }
 
 body{
 	background-position:center;
-	background-image:url(/img/lextranpic.jpg);
+	background-image:url(/img/lex.jpg);
 	background-repeat:no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
