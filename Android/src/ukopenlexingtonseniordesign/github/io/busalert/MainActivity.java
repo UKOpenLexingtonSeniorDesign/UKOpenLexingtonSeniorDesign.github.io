@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+
 public class MainActivity extends Activity {
 
 	@Override
